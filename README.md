@@ -13,7 +13,8 @@
  ###  b. Create necessary folders such as
           controllers, config, models and routes necessary for MVC approach.
  ###  c. Start making the Todo model.
-         <img src ="https://user-images.githubusercontent.com/42107838/102281211-87053400-3f54-11eb-8351-ce8d865e1640.png">
+ 
+<img src ="https://user-images.githubusercontent.com/42107838/102281211-87053400-3f54-11eb-8351-ce8d865e1640.png">
 
  ###  d. Follow the MVC approach and write down the apis (Refer repository for good understanding).
 
