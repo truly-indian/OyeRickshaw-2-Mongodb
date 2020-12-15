@@ -18,6 +18,10 @@ const todoSchema = new Schema({
     priority:{
         type: Number,
         required:true
+    },
+    todoState :{
+        type: Boolean,
+        default: false
     }
 })
 

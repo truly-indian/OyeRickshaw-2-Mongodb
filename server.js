@@ -13,7 +13,7 @@ mongoose.connect(keys.mongoDb.dbUrl,
         .then(() => console.log('connected to mongodb...'))
         .catch(err => console.log(err))
 
-        app.use(bodyParser.urlencoded({ extended: true }))
+app.use(bodyParser.urlencoded({ extended: true }))
 app.use('/', adminRoutes)
 
 
