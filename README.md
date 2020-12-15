@@ -13,7 +13,7 @@
  ###  b. Create necessary folders such as
           controllers, config, models and routes necessary for MVC approach.
  ###  c. Start making the Todo model.
-         ![image](https://user-images.githubusercontent.com/42107838/102281211-87053400-3f54-11eb-8351-ce8d865e1640.png)
+         <img src ="https://user-images.githubusercontent.com/42107838/102281211-87053400-3f54-11eb-8351-ce8d865e1640.png">
 
  ###  d. Follow the MVC approach and write down the apis (Refer repository for good understanding).
 
@@ -29,4 +29,4 @@
 ###   b. Use ORM mongoose to get connected to the database.
 
 # Following is the GIF of the working of the web application as asked.
- <img src = "https://user-images.githubusercontent.com/42107838/102282134-1d862500-3f56-11eb-82fa-def5eb9319e5.png">
+ 
