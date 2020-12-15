@@ -29,4 +29,4 @@
 ###   b. Use ORM mongoose to get connected to the database.
 
 # Following is the GIF of the working of the web application as asked.
-
+ <img src = "https://user-images.githubusercontent.com/42107838/102282134-1d862500-3f56-11eb-82fa-def5eb9319e5.png">
