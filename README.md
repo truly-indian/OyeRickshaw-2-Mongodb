@@ -13,4 +13,4 @@
  ###  b. Create necessary folders such as
           controllers, config, models and routes necessary for MVC approach.
 ###   c. Start making the Todo model.
-         <img src = "">
+         
