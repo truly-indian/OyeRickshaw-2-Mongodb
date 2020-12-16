@@ -17,9 +17,13 @@ router.delete('/todos/:id', deleteTodo);
 
 // search apis
 
+//search through title
 router.get('/todos/search/title/:title',searchTitle)
-router.get('/todos/search/date/:Date',searchDate)
+//search through date
+router.get('/todos/search/date/:date',searchDate)
+//search through priority
 router.get('/todos/search/priority/:priority',searchPriority)
+//search through state
 router.get('/todos/search/state/:state',searchState)
 
 

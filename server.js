@@ -16,7 +16,9 @@ mongoose.connect(keys.mongoDb.dbUrl,
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use('/', adminRoutes)
 
-
+app.use('*', (req,res) => {
+  res.status(404).json({message: "No such link"})
+})
 
 app.listen(SERVER_PORT, ()=> {
     console.log('server started successfully!!' + SERVER_PORT)
