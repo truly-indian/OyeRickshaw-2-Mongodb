@@ -22,12 +22,20 @@
 
 ###   a. Download the zip file and unzip it or you shall clone it from the link.
 ###   b. Run npm install to install all the npm pacakages required.
-###   c. After step 3(b) run the commande noder server.js or nodemon server.js.
+###   c. After step 3(b) run the command node server.js or nodemon server.js.
 
 # (NOTE..If it does not work) 4.  How to set up Database.
 
 ###   a. Follow 1(b) and make account on mongodb atlas get a connection DBURL.
 ###   b. Use ORM mongoose to get connected to the database.
 
-# Following is the GIF of the working of the web application as asked.
- 
+#     Following is the GIF of the working of the web application as asked.
+#     CREATE Functionality
+      <img src= "https://user-images.githubusercontent.com/42107838/102305078-19253080-3f85-11eb-9435-39898c1c3710.gif">
+      
+#     READ Functionality
+      <img src ="https://user-images.githubusercontent.com/42107838/102305265-85079900-3f85-11eb-9635-5150130b274a.gif">
+      
+#     UPDATE Functionality
+      <img src ="https://user-images.githubusercontent.com/42107838/102305386-eb8cb700-3f85-11eb-99ba-f863da6977e5.gif"> 
+      
