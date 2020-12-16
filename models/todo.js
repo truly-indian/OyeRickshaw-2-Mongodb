@@ -12,8 +12,7 @@ const todoSchema = new Schema({
         required:true,
     },
     date:{
-        type:Date,
-        default:Date.now
+        type:String
     },
     priority:{
         type: Number,

@@ -4,13 +4,23 @@ const Todo = require('../models/todo')
 
 // route for making a post request to add todo
 exports.addTodo = async(req,res) => {
-
+    var now = new Date(); 
+    var str = now.toISOString();
+    var result='';
+    for(i=0;i<str.length;i++) {
+        if(str[i]!='T') {
+            result+=str[i];
+        } else {
+            break;
+        }
+    }
         try {
             const newTodo = {
                 todoTitle: req.body.todoTitle,
                 todoDetails: req.body.todoDetails,
                 priority: req.body.priority,
-                todoState: req.body.todoState
+                todoState: req.body.todoState,
+                date: result
             }
             const createdTodo = await new Todo(newTodo).save()
             res.status(200).json(createdTodo)
@@ -23,6 +33,7 @@ exports.addTodo = async(req,res) => {
 // route for making a get request to get all todos
 exports.readTodos = (req,res) => {
      Todo.find()
+     .sort({priority:'descending'})
      .then((todos)=> {
         res.status(200).json(todos)
      })
@@ -36,6 +47,7 @@ exports.readTodos = (req,res) => {
 exports.updateTodo = (req,res) => {
     Todo.findById({_id: req.params.id})
     .then((todo) => {
+        
          todo.todoTitle = req.body.todoTitle,
          todo.todoDetails = req.body.todoDetails,
          todo.priority = req.body.priority
@@ -67,8 +79,8 @@ exports.deleteTodo = (req,res) => {
 
 // search through title api
 exports.searchTitle = (req,res) => {
-     const {todoTitle} = req.body
-     Todo.find({todoTitle: todoTitle})
+     console.log(req.params.title)
+     Todo.find({todoTitle: req.params.title})
      .then((todos) => {
           res.status(200).json(todos)
      })
@@ -80,8 +92,8 @@ exports.searchTitle = (req,res) => {
 
 // search through date api
 exports.searchDate = (req,res) => {
-    const {date} = req.body
-    Todo.find({date: date})
+    console.log(req.params.date)
+    Todo.find({date: req.params.date})
     .then((todos) => {
          res.status(200).json(todos)
     })
@@ -94,8 +106,9 @@ exports.searchDate = (req,res) => {
 //search through priority
 
 exports.searchPriority = (req,res) => {
-    const {priority} = req.body
-    Todo.find({priority: priority})
+    
+    Todo.find({priority: req.params.priority})
+    .sort({priority: 'descending'})
     .then((todos) => {
          res.status(200).json(todos)
     })
@@ -108,8 +121,8 @@ exports.searchPriority = (req,res) => {
 // search through state
 
 exports.searchState = (req,res) => {
-    const {todoState} = req.body
-    Todo.find({todoState: todoState})
+    
+    Todo.find({todoState: req.params.state})
     .then((todos) => {
          res.status(200).json(todos)
     })

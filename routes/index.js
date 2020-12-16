@@ -17,10 +17,10 @@ router.delete('/todos/:id', deleteTodo);
 
 // search apis
 
-router.get('/todo/title',searchTitle)
-router.get('/todo/Date',searchDate)
-router.get('/todo/priority',searchPriority)
-router.get('/todo/state',searchState)
+router.get('/todos/search/title/:title',searchTitle)
+router.get('/todos/search/date/:Date',searchDate)
+router.get('/todos/search/priority/:priority',searchPriority)
+router.get('/todos/search/state/:state',searchState)
 
 
 module.exports = router
