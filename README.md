@@ -31,11 +31,11 @@
 
 #     Following is the GIF of the working of the web application as asked.
 #     CREATE Functionality
-      <img src= "https://user-images.githubusercontent.com/42107838/102305078-19253080-3f85-11eb-9435-39898c1c3710.gif">
+<img src= "https://user-images.githubusercontent.com/42107838/102305078-19253080-3f85-11eb-9435-39898c1c3710.gif">
       
 #     READ Functionality
-      <img src ="https://user-images.githubusercontent.com/42107838/102305265-85079900-3f85-11eb-9635-5150130b274a.gif">
+<img src ="https://user-images.githubusercontent.com/42107838/102305265-85079900-3f85-11eb-9635-5150130b274a.gif">
       
 #     UPDATE Functionality
-      <img src ="https://user-images.githubusercontent.com/42107838/102305386-eb8cb700-3f85-11eb-99ba-f863da6977e5.gif"> 
+<img src ="https://user-images.githubusercontent.com/42107838/102305386-eb8cb700-3f85-11eb-99ba-f863da6977e5.gif"> 
       
