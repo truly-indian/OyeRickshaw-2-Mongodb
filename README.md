@@ -21,6 +21,7 @@
 
  ###  d. Follow the MVC approach and write down the apis (Refer repository for good understanding).
 
+
 # 3.  How to Run on your PC
 
 ###   a. Download the zip file and unzip it or you shall clone it from the link.
@@ -32,6 +33,11 @@
 ###   a. Follow 1(b) and make account on mongodb atlas get a connection DBURL.
 ###   b. Use ORM mongoose to get connected to the database.
 
+#     Functionalities Implemented
+       The user is now able to create/read/update/delete todos.
+       The user is now able to search an existing todo by title/date/priority/state.
+       The user is already able to prioritize the todos through schema.
+       
 #     Following is the GIF of the working of the web application as asked.
 #     CREATE Functionality
 <img src= "https://user-images.githubusercontent.com/42107838/102305078-19253080-3f85-11eb-9435-39898c1c3710.gif">
