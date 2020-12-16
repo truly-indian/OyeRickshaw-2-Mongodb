@@ -5,7 +5,10 @@
  ###  a. NodeJs installed on system.
  ###  b. MongoDb atlas account.
  ###  c. Basic knowledge on MVC and writting apis.
- 
+ ###  d. Tools and Technologies Used
+         ->Back-End: NodeJs ExpressJs MongoDb.
+         ->Version Controll: git/github.
+         ->Tool: Postman
  
  # 2. Approach To my Solution 
  
