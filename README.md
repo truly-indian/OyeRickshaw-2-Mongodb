@@ -39,3 +39,5 @@
 #     UPDATE Functionality
 <img src ="https://user-images.githubusercontent.com/42107838/102305386-eb8cb700-3f85-11eb-99ba-f863da6977e5.gif"> 
       
+#      DELETE Functionality
+<img src ="https://user-images.githubusercontent.com/42107838/102305681-a452f600-3f86-11eb-8006-386cc4026b6e.gif">
