@@ -1,4 +1,12 @@
-# OyeRickshaw-2-Mongodb
+# OyeRickshaw-2
+
+#     Brief Summary about the web app
+
+      This is a todo list application web app built using nodejs, expressjs using mongodb as database.
+      The user is able to perform all the CRUD functionalities easily.
+      Apart from the CRUD functionalities the user is able to search a particular todo based on either title, Date, priority, state.
+      The user is also able to prioritize the todos according to the schema itself.
+      All the todos are listed based on the highest priority.
 
 # 1.  Assumptions Made and System Requirements
  
