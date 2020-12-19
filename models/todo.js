@@ -1,7 +1,6 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
-
 const todoSchema = new Schema({
     todoTitle:{
         type:String,
@@ -21,6 +20,9 @@ const todoSchema = new Schema({
     todoState :{
         type: Boolean,
         default: false
+    },
+    user: {
+        type: String
     }
 })
 
